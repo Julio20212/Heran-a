@@ -1,0 +1,31 @@
+package Heranca;
+
+public class AutomovelVeiculos extends Veiculo {
+
+	private int numportas;
+	private String motor;
+
+	public AutomovelVeiculos(String marca, String modelo, int ano, String cor, int numportas, String motor) {
+		super(marca, modelo, ano,cor);
+		this.numportas = numportas;
+		this.motor = motor;
+
+	}
+	public void setNumportas(int numportas) {
+		this.numportas = numportas;
+	}
+	public int getnumportas() {
+		return numportas;
+	}
+	public String getMotor() {
+		return motor;
+	}
+	public void setMotor(String motor) {
+		this.motor = motor;
+	}
+	
+	
+}
+	
+	
+	
