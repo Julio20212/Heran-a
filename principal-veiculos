@@ -1,0 +1,31 @@
+package Heranca;
+
+public class PrincipalVeiculos {
+
+	public static void main(String[] args) {
+		
+		Veiculo veiculo = new Veiculo("Nissan", "Kikcs", 2022, "Preto");
+        System.out.println("Veículo:");
+        System.out.println("Marca: " + veiculo.getMarca());
+        System.out.println("Modelo: " + veiculo.getModelo());
+        System.out.println("Ano: " + veiculo.getAno());
+        System.out.println("Cor: " + veiculo.getCor());
+ 
+        AutomovelVeiculos automovel = new AutomovelVeiculos("Ford", "Ford-k", 2020, "Cinza", 4, "1.0 Flex ");
+        System.out.println("\nAutomóvel:");
+        System.out.println("Marca: " + automovel.getMarca());
+        System.out.println("Modelo: " + automovel.getModelo());
+        System.out.println("Ano: " + automovel.getAno());
+        System.out.println("Cor: " + automovel.getCor());
+        System.out.println("Número de Portas: " + automovel.getnumportas());
+        System.out.println("Motor: " + automovel.getMotor());
+ 
+        Moto moto = new Moto("Honda", "XJ", 2019, "¨Verde", 500);
+        System.out.println("\nMoto:");
+        System.out.println("Marca: " + moto.getMarca());
+        System.out.println("Modelo: " + moto.getModelo());
+        System.out.println("Ano: " + moto.getAno());
+        System.out.println("Cor: " + moto.getCor());
+        System.out.println("Cilindradas: " + moto.getCilindrada());
+    }
+}
